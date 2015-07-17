@@ -1,0 +1,62 @@
+# PUBLIC CONFIG
+name: 'mooxe-bp'
+version: '0.0.0'
+description: 'mooxe-bp'
+author: 'FooTearth <footearth@gmail.com>'
+main: 'mainfile'
+license: 'MIT'
+repository:
+  type: 'git'
+  url: 'https://github.com/repo_id/project_name.git'
+bugs:
+  url: 'https://github.com/repo_id/project_name/issues'
+homepage: 'https://github.com/repo_id/project_name'
+Keywords: [
+  'bp'
+  'ppt'
+  'node'
+  'gulp'
+]
+
+# BOWER CONFIG
+bower:
+  dependencies: []
+  devDependencies: []
+
+# NPM CONFIG
+npm:
+  bin: {}
+  scripts:
+    start: 'nodeppt start -d dist/'
+    stop: 'gulp clean'
+    restart: 'gulp; npm start'
+  dependencies: []
+  devDependencies: [
+    'coffee-script'
+    'shelljs'
+    'lodash'
+    'del'
+
+    gulp: [
+      'npb-coffee'
+      'run-sequence'
+
+      'gulp-tap'
+      'gulp-watch'
+
+      'gulp-file-include'
+    ]
+  ]
+
+# NPB CONFIG
+npb:
+
+#  bower:
+#    root_allow: true
+  npm:
+    commander: 'npm' # default
+    # commander: 'cnpm'
+
+# -- build tools --
+#  build: 'gulp'  # default
+#  build: 'grunt'
