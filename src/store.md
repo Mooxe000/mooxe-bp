@@ -1,4 +1,4 @@
 @@include('./store/config.md')
 
 [slide]
-@@include('./display/what.md')
+@@include('./store/what.md')

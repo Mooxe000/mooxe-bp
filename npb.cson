@@ -30,6 +30,8 @@ npm:
     start: 'nodeppt start -d dist/'
     stop: 'gulp clean'
     restart: 'gulp; npm start'
+
+    watch: 'gulp watch'
   dependencies: []
   devDependencies: [
     'coffee-script'
@@ -41,7 +43,6 @@ npm:
       'npb-coffee'
       'run-sequence'
 
-      'gulp-tap'
       'gulp-watch'
 
       'gulp-file-include'

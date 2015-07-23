@@ -23,7 +23,8 @@
   "scripts": {
     "start": "nodeppt start -d dist/",
     "stop": "gulp clean",
-    "restart": "gulp; npm start"
+    "restart": "gulp; npm start",
+    "watch": "gulp watch"
   },
   "dependencies": {},
   "devDependencies": {
@@ -33,7 +34,6 @@
     "del": "*",
     "npb-coffee": "*",
     "run-sequence": "*",
-    "gulp-tap": "*",
     "gulp-watch": "*",
     "gulp-file-include": "*",
     "gulp": "*"
