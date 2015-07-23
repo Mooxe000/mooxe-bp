@@ -7,10 +7,10 @@ main: 'mainfile'
 license: 'MIT'
 repository:
   type: 'git'
-  url: 'https://github.com/repo_id/project_name.git'
+  url: 'https://github.com/Mooxe000/mooxe-bp.git'
 bugs:
-  url: 'https://github.com/repo_id/project_name/issues'
-homepage: 'https://github.com/repo_id/project_name'
+  url: 'https://github.com/Mooxe000/mooxe-bp/issues'
+homepage: 'https://github.com/Mooxe000/mooxe-bp'
 Keywords: [
   'bp'
   'ppt'
@@ -27,11 +27,15 @@ bower:
 npm:
   bin: {}
   scripts:
-    start: 'nodeppt start -d dist/'
+    start: 'gulp; nodeppt start -d dist/'
     stop: 'gulp clean'
-    restart: 'gulp; npm start'
+    restart: 'npm stop; npm start'
 
-    watch: 'gulp watch'
+    watch: 'gulp; gulp watch'
+
+    docker_build: 'docker build --rm -t mooxe/bp ./'
+    docker_in: 'docker run -t -i -p \\80\\:8080 mooxe/bp /bin/bash'
+    docker_run: 'docker run -d -p \\80\\:8080 mooxe/bp'
   dependencies: []
   devDependencies: [
     'coffee-script'

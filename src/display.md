@@ -7,10 +7,10 @@
 @@include('./display/why.md')
 
 [slide]
-@@include('./display/who.md')
+@@include('./common/who.md')
 
 [slide]
 @@include('./display/how.md')
 
 [slide]
-@@include('./display/end.md')
+@@include('./common/end.md')
