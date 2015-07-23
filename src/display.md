@@ -1,16 +1,40 @@
 @@include('./display/config.md')
 
 [slide]
-@@include('./display/what.md')
+@@include('./display/70.md')
 
 [slide]
-@@include('./display/why.md')
+@@include('./display/140.md')
 
 [slide]
-@@include('./common/who.md')
+@@include('./display/problem.md')
 
 [slide]
-@@include('./display/how.md')
+@@include('./display/solution.md')
+
+[slide]
+@@include('./display/marketing.md')
+
+[slide]
+@@include('./display/model.md')
+
+[slide]
+@@include('./display/competing.md')
+
+[slide]
+@@include('./display/incision.md')
+
+[slide]
+@@include('./display/plan.md')
+
+[slide]
+@@include('./display/background.md')
+
+[slide]
+@@include('./display/ownership.md')
+
+[slide]
+@@include('./display/budget.md')
 
 [slide]
 @@include('./common/end.md')
