@@ -42,6 +42,7 @@ BP 也需要一个好的演进方式，跟我们的产品一样。
   * chrome
   * docker
   * daocloud
+  * nodeppt
 
 ## ChangeList
 
