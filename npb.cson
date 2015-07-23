@@ -34,8 +34,8 @@ npm:
     watch: 'gulp; gulp watch'
 
     docker_build: 'docker build --rm -t mooxe/bp ./'
-    docker_in: 'docker run -t -i -p \\80\\:8080 mooxe/bp /bin/bash'
-    docker_run: 'docker run -d -p \\80\\:8080 mooxe/bp'
+    docker_in: 'docker run -t -i -p \\8088\\:8080 mooxe/bp /bin/bash'
+    docker_run: 'docker run -d --name mooxe_bp -p \\8088\\:8080 mooxe/bp'
   dependencies: []
   devDependencies: [
     'coffee-script'

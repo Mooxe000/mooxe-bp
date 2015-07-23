@@ -1,5 +1,9 @@
 # BP PPT
 
+## 预览扫我
+
+![](http://qrapi.cli.im/qr?data=http%253A%252F%252Fmooxe.io%253A8088%252Fmd%252Fdisplay.md&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=d2208421ad66b8b27109647bd79d45bb)
+
 ## How to run
 
 ```bash

@@ -6,7 +6,7 @@ WORKDIR /root
 
 # install global npm packages
 RUN \
-  /bin/bash -l -c 'cnpm install -g nodeppt gulp-cli'
+  /bin/bash -l -c 'npm install -g nodeppt gulp-cli'
 
 COPY start.sh /root/start.sh
 
