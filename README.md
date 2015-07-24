@@ -2,7 +2,7 @@
 
 ## 预览扫我
 
-![](http://qrapi.cli.im/qr?data=http%253A%252F%252Fmooxe.io%253A8088%252Fmd%252Fdisplay.md&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=d2208421ad66b8b27109647bd79d45bb)
+![](http://qrapi.cli.im/qr?data=http%253A%252F%252Fbp.mooxe.io%252Fmd%252Fdisplay.md&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=18a1de0ee71702ba5d05ce724099d4c7)
 
 ## How to run
 
